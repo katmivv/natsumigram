@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+    background-image:  url(back.jpg);
+}
+.korobka{
+    height: 5000px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -10px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+.zaglav{
+    display: flex;
+    /* justify-content: center; */
+    height: 300px;
+}
+h1.ntsgrm{
+    font-size: 88px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.icon{
+    height: 170px;
+    width: 170px;
+}
+.polosochka{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-top: 200px;
+    position: absolute;
+}
+.pfp{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+b.acc{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -35px;
+    position: absolute;
+}
+.img1{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    padding: 50px 0px 0px 0px; 
+}
+.likes{
+    display: flex;
+    /* justify-content: center; */
+    font-size: 25px;
+    padding: 50px 0px 0px 70px;
+}
+.likei{
+    width: 50px;
+    height: 50px;
+}
+.like{
+    margin-top: 8px;
+    padding: 0px 0px 0px 10px;
+}
+.pdps2{
+    font-size: 30px;
+}
+.acc1{
+    margin-left: 70px;
+    /* margin-top: -3%; */
+    /* position: absolute; */
+    font-size: 33px;
+}
+.postikpoloska{
+    margin-top: 100px;
+}
