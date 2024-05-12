@@ -20,3 +20,12 @@ function like(){
     n++;
     number.innerHTML = n;
 } 
+
+let vvod = document.getElementById("commentvvod")
+let uraa = document.getElementById("uraa")
+function otprv(){ 
+    let com = vvod.value  
+    let ment = document.createElement("p1") 
+    ment.innerHTML = "You:"+ com
+    uraa.appendChild(ment) 
+}
