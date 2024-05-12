@@ -67,6 +67,11 @@ b.acc{
 }
 .pdps2{
     font-size: 30px;
+    padding: 0 0 0 30px;
+}
+.pdps{
+    display: flex;
+    align-items: center;
 }
 .acc1{
     margin-left: 70px;
