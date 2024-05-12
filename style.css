@@ -82,3 +82,39 @@ b.acc{
 .postikpoloska{
     margin-top: 100px;
 }
+input{ 
+    font-size: 30px; 
+    /* padding: 10px 20px;  */
+    display: block; 
+    width: 60%;
+    height: 55px; 
+    margin-top: 20px;
+    margin-left: 6%; 
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+} 
+.comments{
+    display: flex;
+    align-items: center;
+}
+.send{
+    height: 50px;
+    width: 50px;
+    margin-left: -75px;
+    margin-top: -15px;
+    position: absolute;
+    z-index: 2;
+}
+h2{
+    font-size: 32px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.otprv{
+    width: 50px;
+}
+p1{
+    font-size: 30px;
+    margin-left: 70px;
+}
