@@ -1,18 +1,33 @@
-// let post = document.getElementById("firstPost"); 
-// let postsBox = document.getElementById("postsBox");
+let post = document.getElementById("firstPost");  
+let korobka = document.getElementById("postsBox")  
+let text = document.getElementById("text"); 
+
+let imgurls = [  
+    "mini.jpg",
+    "ustala.jpg", 
+    "pomyatish.jpg", 
+]  
+let textIT = [  
+    "Нэтси побольше",
+    "Мини Нэтси",
+    "Биг Нэтси", 
+]  
  
-// let imgurls = [ 
-//     "ustala.jpg", 
-//     "pomyatish.jpg" 
-// ] 
-// for(let i = 0; i < 3; i++){ 
-//     newpost = post.cloneNode(true); 
-//     imgpost = newpost.getElementsByClassName("img1")[0] 
-//     console.log(imgpost) 
-//     imgpost.setAttribute("src", imgurls[i%2]) 
+for (let i = 1; i < 100; i++){  
+    newtext = textIT[i%3] 
+    text.innerHTML = newtext 
+    console.log(textIT[i%3]) 
  
-//     postsBox.appendChild(imgpost); 
-// }
+    newpost = post.cloneNode(true);  
+    imgpost = newpost.getElementsByClassName("img1")[0]  
+    text.innerHTML = textIT[i%2] 
+    imgpost.setAttribute("src", imgurls[i%2])  
+ 
+    korobka.appendChild(newpost);  
+ 
+} 
+
+
 
 let n = 0
 let number = document.getElementById("kolvo");
