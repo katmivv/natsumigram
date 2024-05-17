@@ -13,15 +13,15 @@ let textIT = [
     "Биг Нэтси", 
 ]  
  
-for (let i = 1; i < 100; i++){  
+for (let i = 0; i < 100; i++){  
     newtext = textIT[i%3] 
     text.innerHTML = newtext 
     console.log(textIT[i%3]) 
  
     newpost = post.cloneNode(true);  
     imgpost = newpost.getElementsByClassName("img1")[0]  
-    text.innerHTML = textIT[i%2] 
-    imgpost.setAttribute("src", imgurls[i%2])  
+    text.innerHTML = textIT[i%3] 
+    imgpost.setAttribute("src", imgurls[i%3])  
  
     korobka.appendChild(newpost);  
  
